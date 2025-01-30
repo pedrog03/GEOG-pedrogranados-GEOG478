@@ -1,6 +1,7 @@
 GEOG-pedrogranados-GEOG478
 Table:-
-|Homeworks  |Labs       | Project
+|Homeworks  |Labs       | Project |
+| :---------:|:--------:|:---:|
 |[week01](homework/week01) |[week01](lab/week01) | | 
 |[week02](homework/week02) |[week02](lab/week02) | | 
 |[week03](homework/week03) |[week03](lab/week03) | | 
