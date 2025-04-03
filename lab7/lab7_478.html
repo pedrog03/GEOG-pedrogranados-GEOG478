@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    #chart div{
+      font: 10px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: white;
+  }
+    <title>add a title</title>
+  </head>
+  <body>
+    <div id="chart"></div>
+    <script>
+    var data = [30, 86, 168, 281, 303, 365];
+
+            d3.select("#chart")
+            .selectAll("div")
+            .data(data)
+                .enter()
+                .append("div")
+                .style("width", function(d) { return d + "px"; })
+                .text(function(d) { return d; });
+                <div style="width: 86;">86</div>
+    </script>
+  </body>
+</html>
