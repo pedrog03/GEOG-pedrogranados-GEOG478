@@ -55,10 +55,11 @@
     });
 
     map.add(featureLayer);
+  });
     var popupTemplate= {
-          title: "{Name}",
+          title: "{SCC_Point}",
           actions: [{
-            id: "find"
+            id: "SCC_Point"
           }],
           content: [{
             type: "fields",
@@ -73,6 +74,6 @@
     </script>
     
         
-  );
+
   </body>
 </html>
