@@ -56,10 +56,11 @@
 
     map.add(featureLayer);
   });
+  var featureLayer = new FeatureLayer(SCC_Point)
     var popupTemplate= {
           title: "{SCC_Point}",
           actions: [{
-            id: "SCC_Point"
+            id: "find"
           }],
           content: [{
             type: "fields",
